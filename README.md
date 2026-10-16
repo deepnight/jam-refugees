@@ -11,3 +11,9 @@ If you like this game, please donate to the Secours Populaire.
 Music credit: Epiq by [Boerd](http://www.boerd.se/)
 
 Website: https://deepnight.net/games/refugees/
+
+# About the 2 versions
+
+During the making of this game, I gave on an initial idea where, apparently (I can't remember all the details), you played cards simulating a journey.
+
+The second version is the one that was released.
