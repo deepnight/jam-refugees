@@ -8,7 +8,7 @@ This game was created in 48h for the charitable jam Desert Bus.
 
 If you like this game, please donate to the Secours Populaire.
 
-Music credit: Epiq by [Boerd](http://www.boerd.se/)
+Music credit: Epiq (Multifaros, https://freemusicarchive.org/music/Multifaros/Epiq_EP)
 
 Website: https://deepnight.net/games/refugees/
 
