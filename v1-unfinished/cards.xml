@@ -1,0 +1,15 @@
+<c t="start">
+	Vous démarrez votre voyage. Un dernier truc à emmener?
+	<a desc="Take extra cash">money(1)</a>
+	<a desc="Gather tools">mech(1)</a>
+</c>
+<c t="base">
+	Crevaison !
+	<e>mech(-1)</e>
+</c>
+<c t="base">
+	Maison abandonnée
+	<e>money(1)</e>
+	<a desc="Explore">money(2),mech(-1)</a>
+	<a desc="Ignore"></a>
+</c>

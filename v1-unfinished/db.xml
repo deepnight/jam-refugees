@@ -1,0 +1,55 @@
+<c t="start">
+	You walked for hours through a terrible snow storm. You met no one, and worst, found no shelter.
+</c>
+
+<c t="startChoice" bad="1">
+	As you walk, the ground suddenly crumbles under your feet! Your leg violently hits a rock inside the small pit hidden under the snow.
+	<a desc="Continue">stamina(-1),add(leg:1)</a>
+</c>
+	<c t="leg">
+		Your leg hurts badly. By chance, it doesn't seem broken... You take a short break to recover.
+		<a desc="Continue"></a>
+	</c>
+	<c t="leg">
+		You notice a small blood stain on your leg. Your wound seems worst than you thought, you should definitely do something about it...
+		<a desc="Continue">add(legHeal)</a>
+	</c>
+		<c t="legHeal">
+			You find a small piece of cloth on a bush.
+			<a desc="Use it to bandage your leg"></a>
+			<a desc="Keep it as a resource">rsc(1)</a>
+		</c>
+
+
+<c t="misc">
+	You notice something in the snow, not too far. As you approach, you understand that it wasn't some strange rock. It's a dead body.
+	<a desc="Search for useful things">rsc(1)</a>
+	<a desc="Stay away from it"></a>
+</c>
+
+<c t="misc">
+	You notice a small hole in the snow on your left. You could rest here for a few minutes.
+	<a desc="Rest">stamina(1)</a>
+	<a desc="Continue"></a>
+</c>
+
+
+<c t="misc">
+	The wind is freezing cold. You painful adjust your coat and try to protect your face...
+	<a desc="Continue"></a>
+</c>
+
+<c t="startChoice">
+	You notice a small animal following you cautiously...
+	<a desc="Kill it">rsc(1)</a>
+	<a desc="Ignore it">add(wolf)</a>
+</c>
+
+
+	<c t="wolf">
+		The young wolf stays a dozen meters behind you, examining all your moves.
+	</c>
+
+
+<!-- BASE CARDS -->
+

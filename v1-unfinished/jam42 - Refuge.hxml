@@ -1,0 +1,10 @@
+-cp src
+-swf swf/jam42Refuge.swf
+-swf-header 1280:800:30:FFFFFF
+-swf-lib "obj\jam42 - RefugeResources.swf"
+--flash-strict
+-swf-version 11.3
+-main Main
+-D standalone
+-D spriteParticles
+-resource db.xml@db
