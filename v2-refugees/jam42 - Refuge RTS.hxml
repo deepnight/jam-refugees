@@ -1,0 +1,9 @@
+-cp src
+-swf swf/jam42RefugeRTS.swf
+-swf-header 1280:700:30:FFFFFF
+-swf-lib "obj\jam42 - Refuge RTSResources.swf"
+--flash-strict
+-swf-version 11.3
+-main Main
+-D standalone
+-D spriteParticles
